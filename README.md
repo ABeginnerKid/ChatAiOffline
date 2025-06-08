@@ -16,4 +16,4 @@ i dont know this is run correctly because my frickin computer cant run it
 
 NOTE:
 
-The nomic-embed-text-v1.5.f16.gguf, place in.. idk 
+The nomic-embed-text-v1.5.f16.gguf, place in release package, idk how to attach >100mb file
