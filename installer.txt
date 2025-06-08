@@ -1,0 +1,3 @@
+sudo wget https://huggingface.co/HuggingAlgorithms/ggml-gpt4all-j-v1.3-groovy/resolve/main/ggml-gpt4all-j-v1.3-groovy.bin
+
+you must install this shit to the python script work, and my fuckin cpu doesnt support avx asf and all my mork ruin as hell
