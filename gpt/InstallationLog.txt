@@ -1,0 +1,121 @@
+************************************* Invoked: Sun Jun 8 20:32:59 2025
+[0] Arguments: ./gpt4all-installer-linux.run
+[7] Operations sanity check succeeded.
+[18] Using metadata cache from "/home/arvan/.cache/qt-installer-framework/9c11e018-d3aa-3c3a-9118-829c9ab85b1c"
+[18] Found 0 cached items.
+[18] Language: en-US
+[438] Loaded control script ":/metadata/installer-config/installer_control_qs.qs"
+[438] Using control script: ":/metadata/installer-config/installer_control_qs.qs"
+[16860] Fetching latest update information...
+[16884] Downloading 1 items to cache.
+[16884] Retrieving information from remote repositories...
+[17677] Retrieving meta information from remote repository...
+[18585] Extracting meta information...
+[18595] Updating local cache with 1 new items...
+[18607] Loading component scripts...
+[22222] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[22222] Warning: Numeric mode unsupported in the posix collation implementation
+[24522] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[24522] Warning: Numeric mode unsupported in the posix collation implementation
+[34582] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[34582] Warning: Numeric mode unsupported in the posix collation implementation
+[58384] Loading component scripts...
+[60872] Selected components without dependencies:
+gpt4all
+[60875] Installation space required: "2.14 GB" Temporary space required: "918.50 MB" Local repository size: "0.00 bytes"
+[60878] Cache and install directories are on the same volume. Volume mount point: "/" Free space available: "164.43 GB"
+[62002] backup  operation: Mkdir
+[62002] 	- arguments: /home/arvan/CHAT/gpt
+[62002] Done
+[62003] perform  operation: Mkdir
+[62003] 	- arguments: /home/arvan/CHAT/gpt
+[62003] Done
+[62003] Preparing the installation...
+[62003] Install size: 1 components
+[62004] Downloading packages...
+[62004] Downloading archive "3.10.0bin.7z.sha1" for component gpt4all.
+[62737] Downloading archive "3.10.0bin.7z" for component gpt4all.
+[66302] Downloading archive "3.10.0lib.7z.sha1" for component gpt4all.
+[66832] Downloading archive "3.10.0lib.7z" for component gpt4all.
+[611326] Downloading archive "3.10.0plugins.7z.sha1" for component gpt4all.
+[612071] Downloading archive "3.10.0plugins.7z" for component gpt4all.
+[613437] Downloading archive "3.10.0qml.7z.sha1" for component gpt4all.
+[613997] Downloading archive "3.10.0qml.7z" for component gpt4all.
+[635738] Downloading archive "3.10.0resources.7z.sha1" for component gpt4all.
+[636299] Downloading archive "3.10.0resources.7z" for component gpt4all.
+[983500] Downloading archive "3.10.0share.7z.sha1" for component gpt4all.
+[984080] Downloading archive "3.10.0share.7z" for component gpt4all.
+[984537] Downloading archive "3.10.0content.7z.sha1" for component gpt4all.
+[985070] Downloading archive "3.10.0content.7z" for component gpt4all.
+[986104] Preparing to unpack components...
+[986122] backup gpt4all concurrent operation: Extract
+[986122] 	- arguments: installer://gpt4all/3.10.0bin.7z, /home/arvan/CHAT/gpt
+[986122] Started
+[986122] backup gpt4all concurrent operation: Extract
+[986122] 	- arguments: installer://gpt4all/3.10.0content.7z, /home/arvan/CHAT/gpt
+[986122] Started
+[986125] backup gpt4all concurrent operation: Extract
+[986125] 	- arguments: installer://gpt4all/3.10.0lib.7z, /home/arvan/CHAT/gpt
+[986125] Started
+[986136] backup gpt4all concurrent operation: Extract
+[986136] 	- arguments: installer://gpt4all/3.10.0plugins.7z, /home/arvan/CHAT/gpt
+[986136] Started
+[986144] backup gpt4all concurrent operation: Extract
+[986144] 	- arguments: installer://gpt4all/3.10.0qml.7z, /home/arvan/CHAT/gpt
+[986144] Started
+[986213] backup gpt4all concurrent operation: Extract
+[986213] 	- arguments: installer://gpt4all/3.10.0resources.7z, /home/arvan/CHAT/gpt
+[986213] Started
+[986225] backup gpt4all concurrent operation: Extract
+[986225] 	- arguments: installer://gpt4all/3.10.0share.7z, /home/arvan/CHAT/gpt
+[986226] Started
+[1044919] Unpacking components...
+[1044930] perform gpt4all concurrent operation: Extract
+[1044930] 	- arguments: installer://gpt4all/3.10.0lib.7z, /home/arvan/CHAT/gpt
+[1044930] Started
+[1044931] perform gpt4all concurrent operation: Extract
+[1044931] 	- arguments: installer://gpt4all/3.10.0resources.7z, /home/arvan/CHAT/gpt
+[1044931] Started
+[1090545] perform gpt4all concurrent operation: Extract
+[1090545] 	- arguments: installer://gpt4all/3.10.0qml.7z, /home/arvan/CHAT/gpt
+[1090545] Started
+[1098148] perform gpt4all concurrent operation: Extract
+[1098148] 	- arguments: installer://gpt4all/3.10.0bin.7z, /home/arvan/CHAT/gpt
+[1098149] Started
+[1098366] perform gpt4all concurrent operation: Extract
+[1098366] 	- arguments: installer://gpt4all/3.10.0plugins.7z, /home/arvan/CHAT/gpt
+[1098366] Started
+[1098718] perform gpt4all concurrent operation: Extract
+[1098718] 	- arguments: installer://gpt4all/3.10.0share.7z, /home/arvan/CHAT/gpt
+[1098718] Started
+[1098743] perform gpt4all concurrent operation: Extract
+[1098743] 	- arguments: installer://gpt4all/3.10.0content.7z, /home/arvan/CHAT/gpt
+[1098743] Started
+[1133864] Installing component gpt4all
+[1133868] backup gpt4all operation: CreateDesktopEntry
+[1133868] 	- arguments: /home/arvan/Desktop/GPT4All.desktop, Type=Application
+Terminal=false
+Exec="/home/arvan/CHAT/gpt/bin/chat"
+Name=GPT4All
+Icon=/home/arvan/CHAT/gpt/gpt4all-48.png
+Name[en_US]=GPT4All
+[1133868] Done
+[1133872] perform gpt4all operation: CreateDesktopEntry
+[1133872] 	- arguments: /home/arvan/Desktop/GPT4All.desktop, Type=Application
+Terminal=false
+Exec="/home/arvan/CHAT/gpt/bin/chat"
+Name=GPT4All
+Icon=/home/arvan/CHAT/gpt/gpt4all-48.png
+Name[en_US]=GPT4All
+[1133887] Done
+[1133888] backup gpt4all operation: License
+[1133888] 	- arguments:
+[1133888] Done
+[1133888] perform gpt4all operation: License
+[1133888] 	- arguments:
+[1133889] Done
+[1134048] Writing maintenance tool: "/home/arvan/CHAT/gpt/maintenancetool.new"
+[1134048] Writing maintenance tool.
+[1135744] Wrote permissions for maintenance tool.
+[1135868] Maintenance tool hard restart: false.
+[1135872] Installation finished!
