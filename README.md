@@ -13,3 +13,7 @@ youre using english because you speak only english
 im using english because thats all you understand
 
 i dont know this is run correctly because my frickin computer cant run it
+
+NOTE:
+
+The nomic-embed-text-v1.5.f16.gguf, place in.. idk 
